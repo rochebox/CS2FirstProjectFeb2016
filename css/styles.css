@@ -1,0 +1,124 @@
+
+
+body {
+	 background-image: url(../images/guitars/gretchguitar24.png), url(../images/guitars/acoustic2.png), url(../images/roman-forum.jpg);
+	 /* background-size: contain;  */
+	 background-size: cover, ; 
+	 background-repeat: no-repeat;
+	 background-position: 0px 15px;
+
+	 background-color: yellow;
+	 padding-left: 0px;
+
+}
+.floater_right{
+	float: right;
+}
+
+.floater_left{
+	float: left;
+}
+
+.clearIt{
+	clear;
+}
+
+
+p{
+	/*font-family: 'Ruslan Display', cursive; */
+	/* font-family: 'Cardo', serif; */
+	font-family: 'Josefin Sans', sans-serif; 
+	font-size: 1.75em;
+	font-weight: bold;
+	color: #6600cc;
+
+	text-shadow: 1px 1px #000000;
+}
+
+
+
+.myLinks{
+	color: red;
+	text-decoration: none;
+
+}
+.myLinks:hover{
+	color:blue;
+	font-size: 1.25em;
+}
+
+
+
+
+
+
+h1 {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 80px;
+	text-align: center;
+	color: purple;
+	margin-bottom:0;
+
+
+	-webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: #000000; /* Black */
+   text-shadow: 3px 3px #FF0000;
+}
+
+h2 {
+	 font-family: 'Dancing Script', cursive;
+	 color: #fbf1ce; /* light yellow */
+	 background-color: black;
+	 padding-left: 7%;
+	 padding-top: 5px;
+	 padding-bottom: 5px;
+	 width:25%;
+	 margin-bottom: 0;
+	 margin-top: 100px;
+	 box-shadow: 0px 3px 1px #f0f310;
+
+}
+
+.transparent_b {
+	background: rgba(102,0,255,0.3);
+	margin-left:20%;
+	padding-top: 5%;
+	padding-left: 10%;
+	border-left: solid 10px black;
+
+	
+
+}
+
+.main_background {
+
+	background: rgba(255,255,255,.5);
+	margin-top: 0;
+	margin-right: 5%;
+	margin-left: 17%;
+
+	padding: 10px;
+	padding-left: 15px;
+	 box-shadow: 6px 0px 1px #f0f310;
+}
+
+.para_first_let{
+	padding_top:50px;
+	/* background-image: url(../images/guitars/doubleGibson.png); */
+}
+
+.firstLetter{
+	line-height: 70%;
+	float: left;
+	font-family: 'Ruslan Display', cursive;
+	color: #462b95;
+	font-size: 100px;
+	text-shadow: 3px 3px #b71d36;
+	/* padding-top:0; */
+	/* margin-top:0; */
+	/*background-image: url(../images/guitars/doubleGibson.png); */
+}
+
+.firstLetter:hover { 
+    color: red;
+}
